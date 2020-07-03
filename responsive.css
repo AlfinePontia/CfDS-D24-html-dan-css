@@ -1,12 +1,41 @@
 /* Untuk Tablet*/
 @media all and (max-width: 1000px){
-  footer {
+   .align-text{
+      padding-top: 20px;
+   }
+   
+   .align-text h5{
+      font-size: 24px;
+   }
+   .align-text h1{
+     font-size: 36px;
+  }
+
+  .align-text p{
+     font-size: 18px;
+     line-height: 20px;
+  }
+  .align-center{
+     background-size: 40%;
+  }
+  
+  .top-wrapper{
+     background-size: 85%;
+     height: 650px;
+  }
+   footer {
      background-color: #868686;
      font-family: 'Gelasio', serif;
      overflow-x: hidden;
      width: 100%;
   }
 
+  .heading{
+     font-size: 2.5rem;
+  }
+  .heading::after{
+   width: 15rem;
+}
   img {
      width: 150px;
      margin: 0 auto;
@@ -58,8 +87,14 @@
   }
   .row3 {
      flex-direction: column;
-     width: 100%;
+     width: 60%;
   }
+
+  .card{
+   padding-top: 2rem;
+   width: 32rem;
+   text-align: center;
+}
 }
 
 @media all and (max-width: 670px){
@@ -73,10 +108,72 @@
       display: block;
       margin-right: 50px;
     }
+
+    .align-text{
+       padding-top: 20px;
+    }
+    
+    .align-text h5{
+       font-size: 18px;
+    }
+    .align-text h1{
+      font-size: 28px;
+   }
+
+   .align-text p{
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .align-center{
+      background-size: 30%;
+   }
+
+   .top-wrapper{
+      height: 500px;
+      background-size: 90%;
+      
+   }
+
+   .card{
+      padding-top: 2rem;
+      width: 24rem;
+      text-align: center;
+   }
+
+   .heading{
+      font-size: 2rem;
+   }
+
+   .heading::after{
+      width: 10rem;
+   }
+
+   .card h1{
+      font-size: 2rem;
+   }
+
+   .job-title{
+      font-size: 1.3rem;
+   }
+
+   .about{
+      font-size: 1.2rem;
+   }
+
+
+   .row3{
+      width: 60%;
+   }
+   .blockquote_credit{
+      font-size: 1rem;
+   }
+   .ahmad{
+      font-size: 0.7rem;
+   }
 }
 
 
-@media all and (min-width: 700px){
+@media all and (min-width: 1000px){
 .card-wrapper{
   flex-direction: row;
   flex-wrap: wrap;
